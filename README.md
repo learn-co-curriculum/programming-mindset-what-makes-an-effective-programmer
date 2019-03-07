@@ -1,107 +1,56 @@
-# What Does a Programmer's Mindset Look Like?
+# What Makes an Effective Programmer?
 
-> Writing is like driving at night in the fog. You can only see as far as your
-> headlights, but you can make the whole trip that way. -- E.L. Doctrow
+What do the best programmers do that the average programmers don't?
 
-Most programmers start coding with a feeling like this: a fog of ambiguity,
-wondering if their solution will work, exploring the way forward the best that
-they can. But programmers have a process to give them the confidence that, if
-they follow it, the fog will disappear, the solution will become clear and
-they'll reach their intended destination.
+_Do they write more code faster?_
 
-This process doesn't have anything to do with code. Instead, it relies on the
-way we think about and approach problems. We can adjust our own mindset away
-from the idea that programmers always know immediately what to code and towards
-the idea that programmers actually just know how to concentrate, test theories
-and develop a practice of problem solving.
+Can we say that because one person A wrote 10,000 lines and person B wrote 500
+that A is outperforming B? No, we can't. In the world of software development
+500 lines of code can do the work of 10,000 and it's much easier to work on the
+500 lines than 10,000.
 
-## The Programmer's Mindset
+_Do they get code to pass tests more quickly?_
 
-### Mindfulness
+Sometimes! But since programmers write the tests as well as their implementation
+code—the code that satisfies the tests—they can only test what they themselves
+know about. An inexperienced programmer will write low-value tests that low-
+value code can pass quickly, and sleep soundly not knowing how blind they were.
+The measure of code is not passing already written tests, but creating the
+potential to expand on the code's behavior in the future.
 
-_Mindfulness_ in programming, as with everything worth doing in life, is the
-key. It just _happens_ that we're going to build that supporting skill by doing
-programming. Most of the anti-patterns we discuss have lack-of-mindfulness at
-their root: coding while texting, pairing while browsing Instagram, copying
-random-dude420's solution from Stack Overflow. You're doing right when you're
-doing _work_. When it's hard, when you'd rather do something mindless like
-social media, you're doing the _right thing_. ***Don't stop.*** Be mindful.
+The difference is _process_.
 
-### Bravery
+Effective programmers take the time to _really_ understand the problem
+they're trying to solve. Once they understand it, they make focused, decided
+steps with _mindfulness_ to implement the solution. **Learning to program is the
+art of solving problems.** It's the main muscle that you are constantly
+developing.
 
-Solving problems that no one has completed before, or that have stymied the most
-brilliant humans ever to walk this earth is daunting. Who are _you_, who am _I_,
-who are _we_ to dare such things?
+Let's dive in a bit deeper here. What is problem solving?
 
-The human kind.
+## Problem Solving in the Abstract
 
-The kind that descended the trees, harnessed fire, built civilizations in river
-valleys and put our footprint on the Moon. All of these were hard problems that
-all the geniuses and sages _before_ couldn't solve, until someone dared to try.
-Embrace uncertainty, but also embrace your inner warrior. You are in a battle
-against your own unknowing. You can win.
+Think about some of the problems people have on a regular basis. If you're a
+soccer player, getting past the defense to score a goal is a problem, because
+there are people blocking you from kicking the ball into the net. If you're
+hungry, making a peanut butter and jelly sandwich is a problem, because you need
+to find the ingredients and assemble them in the correct order. Whether we call
+it a "play" on the soccer field or a "recipe" in the kitchen, essentially what
+you're doing is following a process to create _another_ process &mdash; a
+process that will solve the problem.
 
-### Focus
+Good programmers do this every time they start on a new bit of work. From adding
+a little updated feature to creating a brand-new project from scratch. Their
+process typically looks like:
 
-We mentioned it under another name as "mindfulness" but while "mindfulness"
-recalls yoga poses and self-help books, it has a practical side we call
-"focus." When you feel the distraction machines (phones, notification pings, a
-morbid curiosity about whatever happened to nobody you really care about on
-some reality show that society would be better off without) clawing at your
-attention, realize that they are multi-_billion_ dollar industries that profit
-from keeping your attention like an addict and selling it off by the half-hour.
+* What is the problem I'm trying to solve?
+* What does the output look like? What is the end result I'm trying to build?
+* What inputs do I need in order to create that output?
+* What do I have now? What is missing?
 
-The only thing keeping you from this fate is ***your will*** &mdash; which they
-launch focused campaigns to weaken.
+### How Do We Develop the Problem-Solving Muscle?
 
-In general, the idea is "don't get up until it's done." Now obviously this can
-be a bad thing, sometimes you need food, sometimes a 10 minute walk will help
-you think of a solution you might not have seen previously. But in general,
-when you hit a bug, when you hit a problem, don't get up from the computer.
-Stick with the problem until it's done. Don't "lose" your game face.
-
-Another practice that will help you here is, before you start building, to
-break down each component of the solution into a "deliverable." Make promises
-to yourself that you'll go to dinner, you'll make that phone call, you'll waste
-15 minutes on social media once that deliverable is working, tested, clean, and
-saved.
-
-## Don't Flail
-
-Work from a problem solving process. Don't randomly add code and hope that this
-next run will somehow magically get the answer. Make sure that each time you
-run the code that you expect it to output some validation of your direction
-toward the answer or the answer itself.
-
-## Don't Curate the Internet's Solutions
-
-Many of the challenges we give at FIS are standard problems that require very
-little external pre-existing knowledge. As a result most programming languages
-have built-in or readily copy-and-pasteable solutions. But **_this is not
-programming_**. Learn from the solutions, see the part you're missing, update
-your process. But if you simply use someone else's solution but don't enrich
-your mental models you've made the poorest investment possible.
-
-## Respect the Problem
-
-Lastly, and perhaps the most important, guideline: respect the problem.
-Sometimes the problem seems simple, but when you delve into it's actually very
-complicated. Be honest with yourself, and peers, bosses and collaborators and
-own up to having misjudged the size of the problem.
-
-Sometimes the problem's interconnected to other parts of the system in
-surprising ways. Sometimes they's a hidden snarl of complicated code you
-didn't expect to find. Perhaps the code depends on mathematics or business
-knowledge you don't have that you need to learn more about.
-
-Whatever the case, sometimes problems are hard and fool us. It's far
-better to admit this and follow your process than to provide a fix while
-choosing to be blind to complexity. That's how you get garbage solutions that
-ultimately create more problems than progress.
-
-## Conclusion
-
-Think of each one of these steps as a practice. Maybe you could copy/paste them
-into a document and work on one each day until it's internalized. Once you
-operate from a programmer's mindset on a continuous basis, you'll notice that
-your results consistently, dramatically improve.
+You build the problem-solving skill the same you build every skill: constant,
+_conscious_ effort and practice. The great thing about learning to program is
+that you have constant access to problems that help build this skill. Every lab
+and every real-world observation is an opportunity to practice and get better.
