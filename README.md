@@ -34,14 +34,15 @@ Think about some of the problems people have on a regular basis. If you're a
 soccer player, getting past the defense to score a goal is a problem, because
 there are people blocking you from kicking the ball into the net. If you're
 hungry, making a peanut butter and jelly sandwich is a problem, because you need
-to find the ingredients and assemble them in the correct order. Whether we call
-it a "play" on the soccer field or a "recipe" in the kitchen, essentially what
-you're doing is following a process to create _another_ process &mdash; a
-process that will solve the problem.
+to find the ingredients and assemble them in the correct order. Essentially,
+what you're doing is following a process that will solve the original problem,
+like a _play_ on the soccer field or a _recipe_ in the kitchen. But how do you
+develop _that_ process? How do you come up with the play or the recipe?
 
-Good programmers do this every time they start on a new bit of work. From adding
-a little updated feature to creating a brand-new project from scratch. Their
-process typically looks like:
+Good programmers do this every time they start on a new bit of work, from adding
+a little updated feature to creating a brand-new project from scratch. They use
+a problem-solving process to create code that solves the problem at hand. For
+example, they ask themselves questions like:
 
 * What is the problem I'm trying to solve?
 * What does the output look like? What is the end result I'm trying to build?
@@ -54,3 +55,5 @@ You build the problem-solving skill the same you build every skill: constant,
 _conscious_ effort and practice. The great thing about learning to program is
 that you have constant access to problems that help build this skill. Every lab
 and every real-world observation is an opportunity to practice and get better.
+Keep in mind that you're not just building your coding skills, you're building
+your problem-solving skills.
