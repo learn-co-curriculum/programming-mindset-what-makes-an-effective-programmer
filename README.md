@@ -4,7 +4,7 @@ What do the best programmers do that the average programmers don't?
 
 _Do they write more code faster?_
 
-Can we say that because one person A wrote 10,000 lines and person B wrote 500
+Can we say that because person A wrote 10,000 lines and person B wrote 500
 that A is outperforming B? No, we can't. In the world of software development
 500 lines of code can do the work of 10,000 and it's much easier to work on the
 500 lines than 10,000.
